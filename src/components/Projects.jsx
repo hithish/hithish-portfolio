@@ -1,41 +1,41 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { Container, Row, Button } from 'react-bootstrap';
-import { ThemeContext } from 'styled-components';
+import React, { useEffect } from 'react';
+// import { Container, Row, Button } from 'react-bootstrap';
+// import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
-import ProjectCard from './projects/ProjectCard';
-import FallbackSpinner from './FallbackSpinner';
+// import ProjectCard from './projects/ProjectCard';
+// import FallbackSpinner from './FallbackSpinner';
 
-const styles = {
-  containerStyle: {
-    marginBottom: 25,
-  },
-  showMoreStyle: {
-    margin: 25,
-  },
-};
+// const styles = {
+//   containerStyle: {
+//     marginBottom: 25,
+//   },
+//   showMoreStyle: {
+//     margin: 25,
+//   },
+// };
 
 const Projects = (props) => {
-  const theme = useContext(ThemeContext);
+  // const { bsSecondaryVariant } = useContext(ThemeContext);
   const { header } = props;
-  const [data, setData] = useState(null);
-  const [showMore, setShowMore] = useState(false);
+  // const [data, setData] = useState(null);
+  // const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     fetch(endpoints.projects, {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
+      // .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+  // const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>
       <Header title={header} />
-      {data
+      {/* {data
         ? (
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
@@ -51,7 +51,7 @@ const Projects = (props) => {
                 && (
                 <Button
                   style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
+                  variant={bsSecondaryVariant}
                   onClick={() => setShowMore(true)}
                 >
                   show more
@@ -59,7 +59,7 @@ const Projects = (props) => {
                 )}
             </Container>
           </div>
-        ) : <FallbackSpinner /> }
+        ) : <FallbackSpinner /> } */}
     </>
   );
 };

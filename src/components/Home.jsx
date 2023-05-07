@@ -19,6 +19,9 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  inlineWidth: {
+    width: '50%',
+  },
 };
 
 function Home() {
@@ -47,6 +50,7 @@ function Home() {
             }}
           />
         </div>
+        <p style={styles.inlineWidth}>{data?.brief}</p>
         <Social />
       </div>
     </Fade>

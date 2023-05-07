@@ -31,7 +31,7 @@ const styles = {
 };
 
 function Experience(props) {
-  const theme = useContext(ThemeContext);
+  const { timelineLineColor, accentColor, color } = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
 
@@ -50,25 +50,27 @@ function Experience(props) {
 
       {data
         ? (
-          <div className="section-content-container">
+          <div className="section-content-container experience-body">
             <Container>
               <Timeline
-                lineColor={theme.timelineLineColor}
+                lineColor={timelineLineColor}
               >
                 {data.map((item) => (
                   <Fade>
                     <TimelineItem
                       key={item.title + item.dateText}
                       dateText={item.dateText}
-                      dateInnerStyle={{ background: theme.accentColor }}
+                      dateInnerStyle={{ background: accentColor }}
                       style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
+                      bodyContainerStyle={
+                        { color }
+                      }
                     >
                       <h2 className="item-title">
                         {item.title}
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
-                        <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
+                        <h4 style={{ ...styles.subtitleStyle, color: accentColor }}>
                           {item.subtitle}
                         </h4>
                         {item.workType && (

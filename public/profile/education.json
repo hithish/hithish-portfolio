@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "2023 - Currently",
+            "cardTitle": "Masters, Cybersecurity",
+            "cardSubtitle":"Western Michigan University, Kalamazoo",
+            "cardDetailedText": "GPA - 4.0/4.0"
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "2016 - 2020",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"Madanapalle Institution of Technology & Science, Madanapalle",
+            "cardDetailedText": "CGPA - 7.5/10.0"
+        },
+        {
+            "title": "2014 - 2016",
+            "cardTitle": "Intermediate",
+            "cardSubtitle":"Sri Chaitanya Junior College, Vijayawada",
+            "cardDetailedText": "Percentage - 87%"
         }
     ]
 }

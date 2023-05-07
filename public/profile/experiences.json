@@ -1,33 +1,26 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer",
+            "subtitle": "Eunimart Pvt Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Responsible for Building Supply Chain Management System, Ecommerce, AI Tools modules and Integration with API’s.",
+                "Worked with dynamic forms, dynamic tables and dynamic filters in this SAAS platform.",
+                "Built reusable Components, Modules, Directives and Pipes.",
+                "Handling whole SCMS module with API’s Integration and designing new screen using figma tool."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Oct/20 - Dec/22"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer",
+            "subtitle": "Eunimart Pvt Ltd",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Responsible for the whole company professional websites and Integrated AI module with API’s in website using Javascript.",
+                "Extensive experience and expertise in API integration."
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Feb/2020 - Oct/2020"
         }
     ]
 }

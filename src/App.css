@@ -66,6 +66,10 @@
   align-items: center;
 }
 
+.experience-body{
+  width: 850px;
+}
+
 .Typewriter {
   display: inline-block;
 }
