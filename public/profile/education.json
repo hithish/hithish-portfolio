@@ -1,22 +1,16 @@
 {
     "education":[
         {
-            "title": "2023 - Currently",
-            "cardTitle": "Masters, Cybersecurity",
+            "title": "2023 - 2024",
+            "cardTitle": "Masters, Computer Science (Cybesecurity)",
             "cardSubtitle":"Western Michigan University, Kalamazoo",
-            "cardDetailedText": "GPA - 4.0/4.0"
+            "cardDetailedText": "GPA - 3.75/4.0"
         },
         {
             "title": "2016 - 2020",
-            "cardTitle": "B.Tech, Computer Science",
+            "cardTitle": "Bachelors, Computer Science",
             "cardSubtitle":"Madanapalle Institution of Technology & Science, Madanapalle",
             "cardDetailedText": "CGPA - 7.5/10.0"
-        },
-        {
-            "title": "2014 - 2016",
-            "cardTitle": "Intermediate",
-            "cardSubtitle":"Sri Chaitanya Junior College, Vijayawada",
-            "cardDetailedText": "Percentage - 87%"
         }
     ]
 }

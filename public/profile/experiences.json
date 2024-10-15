@@ -1,26 +1,40 @@
 {
-    "experiences": [
-        {
-            "title": "Software Developer",
-            "subtitle": "Eunimart Pvt Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Responsible for Building Supply Chain Management System, Ecommerce, AI Tools modules and Integration with API’s.",
-                "Worked with dynamic forms, dynamic tables and dynamic filters in this SAAS platform.",
-                "Built reusable Components, Modules, Directives and Pipes.",
-                "Handling whole SCMS module with API’s Integration and designing new screen using figma tool."
-            ],
-            "dateText": "Oct/20 - Dec/22"
-        },
-        {
-            "title": "Software Developer",
-            "subtitle": "Eunimart Pvt Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Responsible for the whole company professional websites and Integrated AI module with API’s in website using Javascript.",
-                "Extensive experience and expertise in API integration."
-            ],
-            "dateText": "Feb/2020 - Oct/2020"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Student Web Developer",
+      "subtitle": "Western Michigan University, MI",
+      "workType": "Part-time",
+      "workDescription": [
+        "Developed and maintained the university’s official website using React and WordPress, significantly improving user experience and accessibility for over 10,000 daily visitors while integrating custom themes and plugins to enhance site functionality.",
+        "Led the migration from an outdated CMS to WordPress, ensuring data integrity and minimal disruption, while integrating third-party APIs for dynamic content updates like course catalogs and event calendars.",
+        "Created responsive web designs with CSS frameworks like Bootstrap and Tailwind, and implemented SEO best practices in collaboration with the digital marketing team, resulting in a 40% increase in organic traffic.",
+        "Provided technical support and training for faculty and staff on CMS usage, and utilized Google Analytics to monitor site performance and user behavior, driving data-informed improvements."
+      ],
+      "dateText": "Sep/23 - April/24"
+    },
+    {
+      "title": "Software Developer",
+      "subtitle": "Eunimart Pvt Ltd, CA",
+      "workType": "Full-time",
+      "workDescription": [
+        "Led the design and development of comprehensive frontend and backend components using Java, ReactJS, and Angular 11+, adhering to modern development standards while implementing responsive UI architectures with Material-UI and Angular components.",
+        "Developed Spring Boot-based microservices, integrating RESTful APIs with Hibernate and Spring Data JPA, and optimized backend communication through WebSocket-based authentication mechanisms for real-time applications.",
+        "Automated software development pipelines using Jenkins, Docker, and Kubernetes, implementing CI/CD practices for efficient build, testing, and deployment processes across multiple applications while integrating testing frameworks like Jest and Mocha.",
+        "Deployed scalable applications on AWS and Azure, utilizing services like EC2 and S3, and implemented monitoring solutions with AWS CloudWatch and Azure Monitoring for performance tracking and reliability."
+      ],
+      "dateText": "Oct/20 - Dec/22"
+    },
+    {
+      "title": "Software Developer",
+      "subtitle": "Eunimart Pvt Ltd, CA",
+      "workType": "Internship",
+      "workDescription": [
+        "Led the development of complex web applications using frameworks like ReactJS, Angular, and Node.js, focusing on creating reusable UI components and implementing state management with Redux to ensure seamless communication between front-end and back-end services.",
+        "Enhanced application performance through lazy loading strategies in Angular, optimized rendering with React’s Virtual DOM, and integrated Hibernate Validator for secure data handling in forms.",
+        "Architected serverless solutions with AWS Lambda and Dockerized microservices deployed in Kubernetes, utilizing Jenkins for CI/CD automation to streamline development workflows and improve deployment efficiency.",
+        "Configured MongoDB sharded clusters for high availability, developed secure Web APIs using SQL Azure, and implemented monitoring with AWS CloudWatch to ensure reliable performance and data redundancy across applications."
+      ],
+      "dateText": "Aug/2018 - Oct/2020"
+    }
+  ]
 }
