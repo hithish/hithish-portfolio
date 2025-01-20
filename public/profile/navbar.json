@@ -1,39 +1,38 @@
 {
-    "logo" : {
-        "source": "images/hithish-logo.png",
-        "height" : 50,
-        "width" : 170
+  "logo": {
+    "source": "images/hithish-logo.png",
+    "height": 50,
+    "width": 170
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Experience",
-            "href": "/experience"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "images/Hithish_Kumar_Profile.pdf",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Experience",
+      "href": "/experience"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Resume",
+      "href": "images/Hithish_React_Developer.pdf",
+      "type": "link"
+    }
+  ]
 }
